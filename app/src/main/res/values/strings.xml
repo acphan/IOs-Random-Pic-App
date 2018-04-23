@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PhotoApp</string>
+    <string name="application_id">7a351404b1d49701eaea4c1a8eff9ba0e0ef7d36b94513dc3fbf5093b900a47b</string>
+    <string name="url_photos">https://api.unsplash.com/photos/?client_id=</string>
+    <string name="url_base">https://api.unsplash.com/</string>
+    <string name="main_favorites">Favorites</string>
+    <string name="main_search">Search</string>
+    <string name="main_random">Random</string>
+    <string name="detail_favorite">Favorite</string>
+    <string name="app_label">PhotoApp</string>
+    <string name="search_hint">Search</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear_favorites">Clear Favorites</string>
+    <string name="clear_favorites_message">Clear favorites data?</string>
+    <string name="action_email_favorites">E-Mail Favorites List</string>
+</resources>

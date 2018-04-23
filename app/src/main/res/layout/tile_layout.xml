@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.markandersonix.photoapp.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:id="@+id/tile_layout"
+        android:layout_width="fill_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:id="@+id/tile_img"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/tile_txt" />
+    </LinearLayout>
+</com.markandersonix.photoapp.SquareLayout>

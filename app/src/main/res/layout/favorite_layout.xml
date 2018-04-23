@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:id="@+id/tile_layout"
+    android:layout_width="fill_parent"
+    android:paddingTop="5dp">
+    <com.markandersonix.photoapp.SquareLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:id="@+id/fav_image"/>
+    </com.markandersonix.photoapp.SquareLayout>
+    <android.support.v4.widget.Space
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/fav_text" />
+</LinearLayout>
